@@ -5,7 +5,8 @@
   "content_scripts": [
   {
     "matches": ["*://*.gumtree.com.au/*"],
-    "js": ["gumtree.js"]
+    "js": ["gumtree.js"],
+    "run_at": "document_end"
   }
   ],
   "page_action": {
