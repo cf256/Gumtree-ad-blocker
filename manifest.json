@@ -1,0 +1,23 @@
+  {
+  "name": "GumTree Ad Blocker",
+  "description": "TODO",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": ["*://*.gumtree.com.au/*"],
+    "js": ["gumtree.js"]
+  }
+  ],
+  "page_action": {
+    "default_title": "GumTree AdBlocker",
+    "default_icon": {                   
+            "19": "images/blokkpluss-19.png",           
+            "38": "images/blokkpluss-38.png"
+          }
+  },
+  "icons": { 
+          "16": "images/blokkpluss-16.png",
+          "48": "images/blokkpluss-48.png",
+          "128": "images/blokkpluss-128.png" },
+  "manifest_version": 2
+}
